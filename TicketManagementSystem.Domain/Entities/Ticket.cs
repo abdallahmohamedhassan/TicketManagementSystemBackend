@@ -16,7 +16,6 @@ namespace TicketManagementSystem.Domain.Entities
         public string District { get; private set; }
         public bool IsHandled { get; private set; }
 
-        // Constructor
         public Ticket(string phoneNumber, string governorate, string city, string district)
         {
             Id = Guid.NewGuid();

@@ -15,6 +15,6 @@ namespace TicketManagementSystem.Domain.Entities
         public string District { get; set; }
         public DateTime CreationDate { get; set; }
         public string Status { get; set; }
-        public string Color { get; set; } // NEW
+        public string Color { get; set; } 
     }
 }
