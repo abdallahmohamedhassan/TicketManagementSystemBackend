@@ -61,7 +61,7 @@ namespace TicketManagementSystem.Controllers
             }
             catch (Exception ex)
             {
-                return BadRequest(new { Message = "Faild To Handle Ricket " });
+                return BadRequest(new { Message = "Faild To Handle Ticket " });
 
 
             }

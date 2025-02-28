@@ -38,7 +38,8 @@ namespace TicketManagementSystem.Application.Handlers
                     CreationDate = t.CreationDate,
                     Status = t.IsHandled ? "Handled" : "Pending",
                     Color = t.GetColor()
-                }).ToList();
+                }).OrderByDescending(t => t.CreationDate)
+    .ToList();
             }
             catch (Exception ex) {
                 throw;
